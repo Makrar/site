@@ -19,6 +19,7 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
+    min-width: 1150px;
 }
 
 .nav__list {
@@ -45,8 +46,9 @@ body {
 }
 
 .container {
-    max-width: 1110px;
+    width: 1130px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .nav__link:hover {
@@ -142,6 +144,7 @@ body {
 .slider {
     background-image: url(../images/frame.jpg);
     height: 604px;
+    background-position: center;
     
 }
 
@@ -192,6 +195,7 @@ body {
     margin: 15px 30px 15px 0px;
     display: inline-block;
     margin-bottom: 100px;
+    margin-top: 0px;
 }
 
 .card__chair:last-child {
@@ -205,7 +209,6 @@ body {
 
 .card__discription {
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 260px;
     text-align: center;
     margin: 10px 15px 10px 15px;
@@ -216,7 +219,6 @@ body {
     text-align: center;
     margin: 10px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card__button {
@@ -230,6 +232,7 @@ body {
     border-style: none;
     cursor: pointer;
     transition: all 0.25s;
+    font-family: inherit;
 }
 
 .card__button:hover {
@@ -296,15 +299,12 @@ body {
     margin: 10px 20px 35px 40px;
     cursor: pointer;
     transition: all 0.25s;
-
+    font-family: inherit;
 }
 
 .bonus__button:hover {
-    background-color: #d62759;
-}
-
-.bonus__button:active {
-    background-color: #c00e40;
+    background-color: white;
+    color: #F13C6E;
 }
 
 .bonus__description--machine {
@@ -396,6 +396,3 @@ body {
     width: 25%;
 }
 
-.test {
-    
-}
