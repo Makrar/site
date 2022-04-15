@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+.header__top {
+    background-color: #E5E5E5;
+    padding: 17px;
+}
+
+.header {
+    background-color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav__item {
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+    transition: all 0.25s;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.nav__link:hover {
+    color: #F13C6E;
+}
+
+
+.header__bottom {
+    border-top: 1px solid #EFEFEF;
+    padding: 30px 0;
+    clear: both;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__item {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav__link--bottom {
+    line-height: 19px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.header__column {
+    float: left;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search {
+    background-color: #EFEFEF;
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    margin-left: 155px;
+    margin-top: 40px;
+}
+
+.phone {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.25s;
+}
+
+.phone:hover {
+    color: #F13C6E;
+}
+
+.callback {
+    background: none;
+    border: 2px solid #F13C6E;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: inherit;
+    float: right;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.callback:hover {
+    background-color: #F13C6E;
+    color: white;
+}
+
+.header__button {
+    float: right;
+    margin-top: 40px;
+}
+
+.header__phone {
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.slider {
+    background-image: url(../images/frame.jpg);
+    height: 604px;
+    
+}
+
+.button {
+    background-color: #F13C6E;
+    border: 2px solid white;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.25s;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: #F13C6E;
+}
+
+.slider__head {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 192px;
+}
+
+.slider__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    max-width: 308px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h {
+    margin-top: 80px;
+    margin-bottom: 38px;
+}
+
+
+.card__chair {
+    background-color: white;
+    width: 252px;
+    height: 383px;
+    margin: 15px 30px 15px 0px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.card__chair:last-child {
+    margin-right: 0px;
+}
+
+.card__image {
+    margin: 25px 65px;
+    vertical-align: top;
+}
+
+.card__discription {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 260px;
+    text-align: center;
+    margin: 10px 15px 10px 15px;
+}
+
+.card__price {
+    font-size: 21px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__button {
+    color: white;
+    display: inline-block;
+    background-color: #F13C6E;
+    margin: 10px 63px 10px 62px;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.card__button:hover {
+    background-color: #d62759;
+}
+
+.card__button:active {
+    background-color: #c00e40;
+}
+
+.bonus {
+    width: calc(50% - 15px);
+    height: 212px;
+    background-color: #F13C6E;
+    background-image: url(../images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position: right 45px center;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 100px;
+
+}
+
+.bonus__head {
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    padding: 35px 20px 15px 40px;
+}
+
+.bonus__description--envelope {
+    color: white;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px 15px 40px;
+    max-width: 310px;
+}
+
+.bonus__mail {
+    width: 225px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px 20px 35px 40px;
+}
+
+.bonus__mail-row {
+    color: #C4C4C4;
+    padding: 9px 104px 9px 25px;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: center;
+}
+
+.bonus__button {
+    border: 2px solid white;
+    width: 170px;
+    height: 35px;
+    background-color: #F13C6E;
+    border-radius: 30px;
+    color: white;
+    margin: 10px 20px 35px 40px;
+    cursor: pointer;
+    transition: all 0.25s;
+
+}
+
+.bonus__button:hover {
+    background-color: #d62759;
+}
+
+.bonus__button:active {
+    background-color: #c00e40;
+}
+
+.bonus__description--machine {
+    color: white;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px 15px 40px;
+    max-width: 250px;
+}
+
+.invite {
+    width: calc(50% - 15px);
+    height: 212px;
+    background-color: #F13C6E;
+    background-image: url(../images/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: right 45px center;
+    margin-right: 0px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.brand:before,
+.brand:after {
+    content: '';
+    display: table;
+}
+.brand:after {
+    clear: both;
+}
+
+.brand {
+    font-size: 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.brand__logo--one {
+    float: left;
+}
+
+.brand__logo--two {
+    float: left;
+}
+
+.brand__logo--tree {
+    float: left;
+}
+
+.brand__logo--fo {
+    float: left;
+}
+
+.brand__logo--five {
+    float: left;
+}
+
+.brand__logo--six {
+    float: left;
+}
+
+.brand__logo--seven {
+    float: left;
+}
+
+.brand__logo--eight {
+    float: left;
+}
+
+.brand__logo--nine {
+    float: left;
+}
+
+.brand__logo--ten {
+    float: left;
+}
+
+.brand__logo--eleven {
+    float: left;
+}
+
+.brand__logo {
+    border: 1px solid #EFEFEF;
+    padding: 30px 10px 30px 60px;
+    background-color: white;
+    float: left;
+    width: 25%;
+}
