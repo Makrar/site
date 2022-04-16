@@ -96,11 +96,14 @@ body {
     width: 250px;
     height: 40px;
     border-radius: 40px;
+    border: none;
+    outline: none;
     background-image: url(../images/search.svg);
     background-repeat: no-repeat;
     background-position: left 20px center;
     margin-left: 155px;
     margin-top: 40px;
+    padding-left: 50px;
 }
 
 .phone {
@@ -279,6 +282,9 @@ body {
     background-color: white;
     border-radius: 30px;
     margin: 10px 20px 35px 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
 }
 
 .bonus__mail-row {
