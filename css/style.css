@@ -462,10 +462,15 @@ body {
 
 .footer__center {
     background-color: white;
+    height: 120px;
 }
 
 .footer__center-logo {
-    margin-top: 37px;
+    margin-top: 27px;
+}
+
+.logo__link {
+    margin-right: 17px;
 }
 
 .logo__link--youtube {
@@ -477,13 +482,13 @@ body {
 
 .logo__link--vk {
     border: 2px solid #F13C6E;
-    padding: 15px 7px 10px 7px;
+    padding: 15px 8px 10px 7px;
     border-radius: 100px;
 }
 
 .logo__link--fb {
     border: 2px solid #F13C6E;
-    padding: 14px 15px 10px 14px;
+    padding: 14px 16px 11px 16px;
     border-radius: 100px;
 }
 
@@ -492,3 +497,23 @@ body {
     padding: 15px 11px 10px 11px;
     border-radius: 100px;
 }
+
+.footer__center-column {
+    float: left;
+}
+
+.footer__center-address {
+    margin-left: 396px;
+    margin-top: 0px;
+}
+
+.footer__center-button {
+    float: right;
+}
+
+
+
+
+
+
+
