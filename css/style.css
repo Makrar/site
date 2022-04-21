@@ -466,7 +466,7 @@ body {
 }
 
 .footer__center-logo {
-    margin-top: 27px;
+    margin-top: 22px;
 }
 
 .logo__link {
@@ -502,13 +502,19 @@ body {
     float: left;
 }
 
-.footer__center-address {
-    margin-left: 396px;
-    margin-top: 0px;
+.footer__center-button {
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
-.footer__center-button {
-    float: right;
+.footer__center-address {
+    margin-top: 52px;
+    margin-left: 125px;
+}
+
+.footer__center-phone {
+    margin-top: 52px;
+    margin-left: 105px;
 }
 
 
