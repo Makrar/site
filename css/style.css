@@ -51,6 +51,15 @@ body {
     padding: 0 10px;
 }
 
+.container:before,
+.container:after {
+    content: '';
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+
 .nav__link:hover {
     color: #F13C6E;
 }
@@ -190,6 +199,9 @@ body {
     margin-bottom: 38px;
 }
 
+.card {
+    font-size: 0px;
+}
 
 .card__chair {
     background-color: white;
@@ -197,7 +209,7 @@ body {
     height: 383px;
     margin: 15px 30px 15px 0px;
     display: inline-block;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: 0px;
 }
 
@@ -402,4 +414,81 @@ body {
     width: 25%;
 }
 
-/* Леша лох */
+.footer__top {
+    background-color: white;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.footer__list {
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+
+.footer__column {
+    float: left;
+    width: 252px;
+    margin-right: 30px;
+}
+
+.footer__column:last-child {
+    margin-right: 0px;
+}
+
+.footer__column-ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer__column-link {
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.25s;
+}
+
+.footer__column-link:hover {
+    opacity: 0.5;
+}
+
+.footer__head {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    color: black;
+    border-bottom: 1px solid #EFEFEF;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer__center {
+    background-color: white;
+}
+
+.footer__center-logo {
+    margin-top: 37px;
+}
+
+.logo__link--youtube {
+    border: 2px solid #F13C6E;
+    padding: 15px 10px 10px 11px;
+    border-radius: 100px;
+
+}
+
+.logo__link--vk {
+    border: 2px solid #F13C6E;
+    padding: 15px 7px 10px 7px;
+    border-radius: 100px;
+}
+
+.logo__link--fb {
+    border: 2px solid #F13C6E;
+    padding: 14px 15px 10px 14px;
+    border-radius: 100px;
+}
+
+.logo__link--inst {
+    border: 2px solid #F13C6E;
+    padding: 15px 11px 10px 11px;
+    border-radius: 100px;
+}
